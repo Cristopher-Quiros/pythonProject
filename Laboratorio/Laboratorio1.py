@@ -1,6 +1,6 @@
 
 
-class SistemaVentaEntradas:
+class S:
     def __init__(self):
         self.estadio = "Estadio Ejemplo"
         self.precios_asientos = {
