@@ -1,17 +1,17 @@
 
 
-class S:
+class Stadium:
     def __init__(self):
-        self.estadio = "Estadio Ejemplo"
-        self.precios_asientos = {
-            "VIP": 100,
-            "Platea": 80,
+        self.stadium = "example stadium"
+        self.price_seats = {
+            "VIP": 90,
+            "Platea": 70,
             "General": 50
         }
-        self.espectadores = {}
-        self.ventas = {}
+        self.spectators = {}
+        self.sales = {}
 
-    def mostrar_menu(self):
+    def show_menu(self):
         while True:
             print("Bienvenido al Sistema de Venta de Entradas")
             print("1. Registrar espectador")
@@ -62,7 +62,7 @@ class S:
                         print(f"{espectador}: ${monto}")
                     print(f"Total de ventas: ${total_ventas}")
 # Uso del SistemaVentaEntradas
-sistema = SistemaVentaEntradas()
-sistema.mostrar_menu()
-11616516
+sistema = Stadium()
+sistema.show_menu()
+
 
